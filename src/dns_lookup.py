@@ -49,14 +49,20 @@ def dns_lookup(domain):
         
 if __name__ == '__main__':
     print("Welcome to the DNS Lookup Tool")
-
-    while(True):
+    choice = True
+    while(choice):
         
         domain = input("\nEnter a domain name (e.g., example.com): ").strip()
+        if domain == 'exit':
+            break
+        # else:
+        #     print("Enter a valid input!!")
+        #     continue
         
         if validate_domain(domain):
             dns_lookup(domain)
-            break
+            print("\nType 'exit' if you want to go :)\n")
+            
         else:
             print("\nEnter a valid domain name! (e.g., example.com)")
         
