@@ -40,6 +40,7 @@ pip install dnspython
    ```bash
    python dns_lookup.py
    ```
+   or you can directly go to the src folder using GUI and open dnslookup.bat file.
 
 4. **Follow the Prompt**:
    - Enter a valid domain name when prompted (e.g., `example.com`).
