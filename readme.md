@@ -91,7 +91,8 @@ MX Records (Mail Servers):
 ```
 dns-lookup-tool/
 ├── src/
-│   └── dns_lookup.py     # The main script
+│   ├── dns_lookup.py     # The main script
+│   └── dnslookup.bat     # Batch file to run the script in Command Prompt
 └── README.md             # Project documentation
 ```
 
