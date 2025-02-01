@@ -3,7 +3,7 @@ A Python script to fetch and display DNS records (A, CNAME, MX) for a given doma
 
 ---
 
-## 🌟 Features
+##  Features
 - Retrieves **A records** (IP addresses).
 - Retrieves **CNAME records** (canonical names).
 - Retrieves **MX records** (mail servers).
@@ -12,7 +12,7 @@ A Python script to fetch and display DNS records (A, CNAME, MX) for a given doma
 
 ---
 
-## 🛠️ Prerequisites
+##  Prerequisites
 Before running the script, ensure you have:
 - Python 3.6 or higher installed on your system.
 - The `dnspython` library installed.
@@ -24,7 +24,7 @@ pip install dnspython
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 1. **Clone this Repository**:
    ```bash
    git clone https://github.com/JayPanchalEZ/dns-lookup-tool.git
@@ -47,7 +47,7 @@ pip install dnspython
 
 ---
 
-## 🔍 Example Usage
+##  Example Usage
 ### Input:
 ```text
 Enter a domain name (e.g., example.com): google.com
@@ -69,7 +69,7 @@ MX Records (Mail Servers):
 
 ---
 
-## ⚠️ Error Handling
+##  Error Handling
 - **Invalid Input**: If the domain format is invalid, the script prompts the user to re-enter a valid domain.
   Example:
   ```text
@@ -87,7 +87,7 @@ MX Records (Mail Servers):
 
 ---
 
-## 💂🏻‍♂️ Project Structure
+##  Project Structure
 ```
 dns-lookup-tool/
 ├── src/
@@ -98,7 +98,7 @@ dns-lookup-tool/
 
 ---
 
-## 📚 Concepts Covered
+##  Concepts Covered
 This project demonstrates:
 - **DNS Basics**:
   - A records, CNAME records, and MX records.
@@ -112,7 +112,7 @@ This project demonstrates:
 
 ---
 
-## 💡 Ideas for Enhancement
+##  Ideas for Enhancement
 - Add more record types (e.g., TXT, NS, SOA).
 - Create a web-based version using Flask or Django.
 - Include a feature to save results to a text or CSV file.
@@ -120,12 +120,12 @@ This project demonstrates:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit pull requests.
 
 ---
 
-## 👤 Author
+##  Author
 **Jay Panchal**
 
 - [GitHub](https://github.com/JayPanchalEZ)
@@ -133,7 +133,7 @@ Contributions, issues, and feature requests are welcome! Feel free to fork the r
 
 ---
 
-## 🌐 Acknowledgments
+##  Acknowledgments
 - **[TryHackMe](https://tryhackme.com/)** for inspiring this project through the Presecurity path.
 - The [dnspython](https://www.dnspython.org/) library for making DNS queries simple.
 
